@@ -9,8 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Install PHP & Composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+
       - name: Install dependencies
-        run: composer install
+        run: composer install --no-interaction --prefer-dist
 
       - name: Run tests
         run: vendor/bin/phpunit
