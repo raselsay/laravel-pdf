@@ -26,7 +26,6 @@ class PdfTest extends TestCase
         $this->assertTrue(method_exists($service, 'view'));
     }
 
-    // অথবা নাম এমন হতে হবে
     public function test_download_method_exists()
     {
         $service = app('pdf');

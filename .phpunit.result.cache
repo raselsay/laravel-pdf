@@ -1,1 +1,0 @@
-{"version":2,"defects":[],"times":{"Rasel\\LaravelPdf\\Tests\\PdfTest::test_download_method_exists":0,"Rasel\\LaravelPdf\\Tests\\PdfTest::test_it_can_create_pdf_service_instance":0.027}}
