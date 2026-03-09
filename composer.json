@@ -1,0 +1,22 @@
+{
+    "name": "rasel/laravel-pdf",
+    "description": "Laravel PDF view and download package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rasel\\LaravelPdf\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rasel\\LaravelPdf\\PdfServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "barryvdh/laravel-dompdf": "^2.0"
+    }
+}
