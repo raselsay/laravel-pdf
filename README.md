@@ -4,7 +4,7 @@ Simple PDF View and Download package for Laravel.
 
 ## Installation
 
-composer require rasel/laravel-pdf
+composer require raselsay/laravel-pdf
 
 ## Usage
 
